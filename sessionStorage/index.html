@@ -1,0 +1,28 @@
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>sessionStorage Page</title>
+    <link rel = "stylesheet" href="../sessionStorage/styles.css">
+    <script src = "../sessionStorage/script.js"></script>
+</head>
+<body>
+    <div class = "title">
+        <h1>Página de sessionStorage</h1>
+    </div>
+    <form id = "login-form">
+        <div class = "form-group">
+          <input type = "text" id = "username" placeholder = "Username" required >
+        </div>
+        <div class = "form-group">
+          <input type = "password" id = "password" placeholder = "Password" required>
+        </div>
+        <div class = "form-group">
+          <button onclick = "grabarSessionStorage()">Grabar en sessionStorage</button>
+          <button onclick = "leerSessionStorage()">Leer de sessionStorage</button>
+        </div>
+    </form>
+    
+</body>
+</html>
